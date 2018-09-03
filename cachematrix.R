@@ -1,8 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## the functions will get the matrix and reproduce a inverse cache matrix
 
-## Write a short comment describing this function
-
+## makeCacheMatrix get the matrix
 makeCacheMatrix <- function(x = matrix()) {
           inv <- NULL
   set <- function(y) {
@@ -20,8 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-
+## cacheSolve give the solution
 cacheSolve <- function(x, ...) {
          inv <- x$getInverse()
   if (!is.null(inv)) {
